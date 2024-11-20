@@ -1,0 +1,126 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Content Include="bin\Debug\net8.0\appsettings.Development.json" />
+      <Content Include="bin\Debug\net8.0\appsettings.json" />
+      <Content Include="bin\Debug\net8.0\Azure.Core.dll" />
+      <Content Include="bin\Debug\net8.0\Azure.Identity.dll" />
+      <Content Include="bin\Debug\net8.0\EntityFramework.dll" />
+      <Content Include="bin\Debug\net8.0\EntityFramework.SqlServer.dll" />
+      <Content Include="bin\Debug\net8.0\Lab10.deps.json" />
+      <Content Include="bin\Debug\net8.0\Lab10.dll" />
+      <Content Include="bin\Debug\net8.0\Lab10.exe" />
+      <Content Include="bin\Debug\net8.0\Lab10.pdb" />
+      <Content Include="bin\Debug\net8.0\Lab10.runtimeconfig.json" />
+      <Content Include="bin\Debug\net8.0\Lab10.staticwebassets.runtime.json" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Data.SqlClient.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Extensions.Logging.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Extensions.Options.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Identity.Client.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.SqlServer.Server.dll" />
+      <Content Include="bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win-x64\native\sni.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win-x86\native\sni.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll" />
+      <Content Include="bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll" />
+      <Content Include="bin\Debug\net8.0\System.ClientModel.dll" />
+      <Content Include="bin\Debug\net8.0\System.CodeDom.dll" />
+      <Content Include="bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll" />
+      <Content Include="bin\Debug\net8.0\System.Data.SqlClient.dll" />
+      <Content Include="bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll" />
+      <Content Include="bin\Debug\net8.0\System.Drawing.Common.dll" />
+      <Content Include="bin\Debug\net8.0\System.Formats.Asn1.dll" />
+      <Content Include="bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll" />
+      <Content Include="bin\Debug\net8.0\System.IO.Pipelines.dll" />
+      <Content Include="bin\Debug\net8.0\System.Memory.Data.dll" />
+      <Content Include="bin\Debug\net8.0\System.Runtime.Caching.dll" />
+      <Content Include="bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll" />
+      <Content Include="bin\Debug\net8.0\System.Security.Permissions.dll" />
+      <Content Include="bin\Debug\net8.0\System.Text.Encodings.Web.dll" />
+      <Content Include="bin\Debug\net8.0\System.Text.Json.dll" />
+      <Content Include="bin\Debug\net8.0\System.Windows.Extensions.dll" />
+      <Content Include="Lab10.csproj" />
+      <Content Include="Lab10.csproj.user" />
+      <Content Include="Lab10.sln" />
+      <Content Include="obj\Debug\net8.0\apphost.exe" />
+      <Content Include="obj\Debug\net8.0\Lab10.AssemblyInfoInputs.cache" />
+      <Content Include="obj\Debug\net8.0\Lab10.assets.cache" />
+      <Content Include="obj\Debug\net8.0\Lab10.csproj.AssemblyReference.cache" />
+      <Content Include="obj\Debug\net8.0\Lab10.csproj.BuildWithSkipAnalyzers" />
+      <Content Include="obj\Debug\net8.0\Lab10.csproj.CoreCompileInputs.cache" />
+      <Content Include="obj\Debug\net8.0\Lab10.csproj.FileListAbsolute.txt" />
+      <Content Include="obj\Debug\net8.0\Lab10.csproj.Up2Date" />
+      <Content Include="obj\Debug\net8.0\Lab10.dll" />
+      <Content Include="obj\Debug\net8.0\Lab10.GeneratedMSBuildEditorConfig.editorconfig" />
+      <Content Include="obj\Debug\net8.0\Lab10.genruntimeconfig.cache" />
+      <Content Include="obj\Debug\net8.0\Lab10.MvcApplicationPartsAssemblyInfo.cache" />
+      <Content Include="obj\Debug\net8.0\Lab10.pdb" />
+      <Content Include="obj\Debug\net8.0\Lab10.RazorAssemblyInfo.cache" />
+      <Content Include="obj\Debug\net8.0\Lab10.sourcelink.json" />
+      <Content Include="obj\Debug\net8.0\project.razor.vs.bin" />
+      <Content Include="obj\Debug\net8.0\refint\Lab10.dll" />
+      <Content Include="obj\Debug\net8.0\ref\Lab10.dll" />
+      <Content Include="obj\Debug\net8.0\scopedcss\bundle\Lab10.styles.css" />
+      <Content Include="obj\Debug\net8.0\scopedcss\projectbundle\Lab10.bundle.scp.css" />
+      <Content Include="obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css" />
+      <Content Include="obj\Debug\net8.0\staticwebassets.build.json" />
+      <Content Include="obj\Debug\net8.0\staticwebassets.development.json" />
+      <Content Include="obj\Debug\net8.0\staticwebassets.pack.json" />
+      <Content Include="obj\Debug\net8.0\staticwebassets\msbuild.build.Lab10.props" />
+      <Content Include="obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Lab10.props" />
+      <Content Include="obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Lab10.props" />
+      <Content Include="obj\Debug\net8.0\staticwebassets\msbuild.Lab10.Microsoft.AspNetCore.StaticWebAssets.props" />
+      <Content Include="obj\Lab10.csproj.nuget.dgspec.json" />
+      <Content Include="obj\Lab10.csproj.nuget.g.props" />
+      <Content Include="obj\Lab10.csproj.nuget.g.targets" />
+      <Content Include="obj\project.assets.json" />
+      <Content Include="obj\project.nuget.cache" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Include="obj\Debug\net8.0\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
+      <Compile Include="obj\Debug\net8.0\Lab10.AssemblyInfo.cs" />
+      <Compile Include="obj\Debug\net8.0\Lab10.GlobalUsings.g.cs" />
+      <Compile Include="obj\Debug\net8.0\Lab10.RazorAssemblyInfo.cs" />
+    </ItemGroup>
+
+</Project>
